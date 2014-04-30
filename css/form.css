@@ -1,0 +1,21 @@
+/* ELEMENTS DU FORMULAIRE CREATE */
+#mdp, #modifMdp, #createMember {
+  display:block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+#mdp aside fieldset input[type="text"],
+#mdp  aside fieldset input[type="password"],
+#modifMdp aside fieldset input[type="text"],
+#modifMdp  aside fieldset input[type="password"],
+#createMember aside fieldset input[type="text"],
+#createMember  aside fieldset input[type="password"] {
+      width:95%;
+     }
+
+section h1 {
+      font-family: "achene";
+      font-size:1.5em;
+     }
+

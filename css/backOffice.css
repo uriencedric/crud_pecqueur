@@ -1,0 +1,1028 @@
+/* STYLE GENERAL DU BACK OFFICE */
+/* General */
+    body {
+    background-color: #111;
+    
+    background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+    background-image:    -moz-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+    background-image:     -ms-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+    background-image:      -o-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+    background-image:         linear-gradient(to left, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+
+    }
+
+
+/* Entete de la page */
+    body > header h1 {
+      float:left;
+      margin: 0 7px 10px 0;
+      padding:15px 20px 20px;
+      
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+
+      border: 1px solid rgb(155, 205, 255);
+      
+      -webkit-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+         -moz-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+          -ms-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+           -o-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+              box-shadow: 0px 0px 25px rgb(155, 205, 255);
+
+
+      background-color: #111;
+      
+      background-image: -webkit-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:    -moz-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:     -ms-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:      -o-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:         linear-gradient(to bottom, #111 0%, #333 50%, #111 100%); 
+
+
+      color:rgb(155, 205, 255);
+      font-family: "glaser"; /*achene*/
+      text-shadow:2px 2px #000;
+    }
+
+    body > header h1>span {
+      font-family: "achene"; /*achene*/
+      font-size: 0.6em;
+      vertical-align: middle;
+    }
+
+    h1 a {
+      color:inherit;
+      text-decoration: none;
+    }
+
+/* Chaque Section */
+    section {
+      position:relative;
+      display:none;
+      float:left;
+
+      padding:20px;
+      
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+
+      border: 1px solid rgb(155, 205, 255);
+      
+      -webkit-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+         -moz-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+          -ms-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+           -o-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+              box-shadow: 0px 0px 25px rgb(155, 205, 255);
+
+
+      background-color: #111;
+      
+      background-image: -webkit-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:    -moz-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:     -ms-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:      -o-linear-gradient(top, #111 0%, #333 50%, #111 100%); 
+      background-image:         linear-gradient(to bottom, #111 0%, #333 50%, #111 100%); 
+
+
+      color:rgb(155, 205, 255);
+      text-shadow:2px 2px #000;
+    }
+
+    #emails, #realisations, #menu, #dipl_exp, #logs, #designations {
+      clear:both;
+    }
+
+/* En tete de section */
+    section > header > h2 {
+      padding:0 0 0 20px;
+      margin:0 0 20px;
+      font-family: "achene"; /*achene*/
+      border-bottom:1px solid rgb(155, 205, 255);
+    }
+
+/* Corps de la section */
+    section > article {
+      clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation */
+
+    nav {
+      float:left;
+      margin-bottom: 10px;
+      
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+
+      border: 1px solid rgb(155, 205, 255);
+      
+      -webkit-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+         -moz-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+          -ms-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+           -o-box-shadow: 0px 0px 25px rgb(155, 205, 255);
+              box-shadow: 0px 0px 25px rgb(155, 205, 255);
+
+      background-color: #111;
+      
+      background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+      background-image:    -moz-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+      background-image:     -ms-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+      background-image:      -o-linear-gradient(right, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+      background-image:         linear-gradient(to left, rgba(0,0,0,0.7) 0%, rgba(50,50,50,0.7) 50%, rgba(0,0,0,0.7) 100%);
+
+
+    }
+
+    nav li {
+      list-style: none;
+    }
+
+    nav h2, nav ul {
+      font-size: 1em;
+      padding:0;
+      margin:0;
+    }
+
+    nav a {
+      display:block;
+      margin:5px 10px;
+      padding:5px 10px;
+
+      background-color: black; 
+      
+      -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+           -o-border-radius: 5px;
+              border-radius: 5px;
+
+      border:1px solid rgb(155, 205, 255); 
+      
+      -webkit-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+         -moz-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+          -ms-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+           -o-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+              box-shadow: 0px 0px 5px rgb(155, 205, 255);
+
+      background-image: -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background-image:    -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background-image:     -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background-image:      -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background-image:         linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+
+      color:rgb(155, 205, 255);
+      text-decoration: none;
+      font-family: "glaser"; /*achene*/
+      text-align: center;
+      text-shadow:2px 2px #000;
+    }
+
+    nav a:hover {
+      color: red;
+
+      background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:    -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:     -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:      -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:         linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+
+      border:1px solid red; 
+
+      -webkit-box-shadow: inset 2px 2px 5px black;
+         -moz-box-shadow: inset 2px 2px 5px black;
+          -ms-box-shadow: inset 2px 2px 5px black;
+           -o-box-shadow: inset 2px 2px 5px black;
+              box-shadow: inset 2px 2px 5px black;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DECONNEXION*/
+#navConnex  {
+  position:absolute;
+  margin:0;
+  padding:15px;
+  top:10px;
+  right:10px;
+  z-index: 99;
+}
+
+#navConnex form a {
+  display:block;
+  padding:0;
+  margin:0;
+  border:0;
+  
+  -webkit-box-shadow: 0 0 0 black;
+     -moz-box-shadow: 0 0 0 black;
+      -ms-box-shadow: 0 0 0 black;
+       -o-box-shadow: 0 0 0 black;
+          box-shadow: 0 0 0 black;
+
+  background: transparent;
+}
+
+#navConnex form a:hover {
+  border:0;
+
+  -webkit-box-shadow: 0 0 0 black;
+     -moz-box-shadow: 0 0 0 black;
+      -ms-box-shadow: 0 0 0 black;
+       -o-box-shadow: 0 0 0 black;
+          box-shadow: 0 0 0 black;
+
+  background: transparent;
+}
+
+#navConnex input {
+  width:100%;
+
+    padding: 5px 10px 10px 30px;
+
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+         -o-border-radius: 5px;
+            border-radius: 5px;
+
+    border:1px solid rgb(155, 205, 255); 
+    
+    -webkit-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+       -moz-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+        -ms-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+         -o-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+            box-shadow: 0px 0px 5px rgb(155, 205, 255);
+
+    color:rgb(155, 205, 255);
+    text-decoration: none;
+    font-family: "glaser"; /*achene*/
+    text-align: center;
+    text-shadow:2px 2px #000;
+}
+
+#navConnex input:hover {
+    -webkit-box-shadow: inset 2px 2px 5px black;
+       -moz-box-shadow: inset 2px 2px 5px black;
+        -ms-box-shadow: inset 2px 2px 5px black;
+         -o-box-shadow: inset 2px 2px 5px black;
+            box-shadow: inset 2px 2px 5px black;
+
+}
+
+
+
+/* LES BOUTONS */
+    section input[type="submit"],
+    section input[type="reset"]{
+    }
+
+    section input[type="submit"]:hover,
+    section input[type="reset"]:hover{
+
+      -webkit-box-shadow: inset 2px 2px 5px black;
+         -moz-box-shadow: inset 2px 2px 5px black;
+          -ms-box-shadow: inset 2px 2px 5px black;
+           -o-box-shadow: inset 2px 2px 5px black;
+              box-shadow: inset 2px 2px 5px black;
+
+    }
+
+
+
+
+
+
+/* Deconnexion */
+    #navConnex input[name*="connect_annul"]{
+      background: url(../../contents/img/structure/deconnect.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/deconnect.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/deconnect.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/deconnect.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/deconnect.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    #navConnex input[name*="connect_annul"]:hover{
+      background:url(../../contents/img/structure/deconnect.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/deconnect.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/deconnect.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/deconnect.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/deconnect.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+
+      background-color: black; 
+      color:red;
+      border:1px solid red; 
+    }
+
+
+
+/* Retour */
+    #navConnex input[name*="retour"]{
+      margin-bottom: 10px;
+
+      background: url(../../contents/img/structure/retour.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/retour.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/retour.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/retour.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/retour.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    #navConnex input[name*="retour"]:hover{
+      
+      background:url(../../contents/img/structure/retour.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/retour.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/retour.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/retour.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/retour.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+    }
+
+
+
+
+
+/* LES BOUTONS */
+    section input[type="submit"],
+    section input[type="reset"]{
+      margin:5px 10px;
+      padding: 5px 10px 10px 30px;
+
+      -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+           -o-border-radius: 5px;
+              border-radius: 5px;
+
+      border:1px solid rgb(155, 205, 255); 
+      
+      -webkit-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+         -moz-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+          -ms-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+           -o-box-shadow: 0px 0px 5px rgb(155, 205, 255);
+              box-shadow: 0px 0px 5px rgb(155, 205, 255);
+
+      
+
+      color:rgb(155, 205, 255);
+      text-decoration: none;
+      font-family: "glaser"; /*achene*/
+      text-align: center;
+      text-shadow:2px 2px #000;
+    }
+
+    section input[type="submit"]:hover,
+    section input[type="reset"]:hover{
+
+      -webkit-box-shadow: inset 2px 2px 5px black;
+         -moz-box-shadow: inset 2px 2px 5px black;
+          -ms-box-shadow: inset 2px 2px 5px black;
+           -o-box-shadow: inset 2px 2px 5px black;
+              box-shadow: inset 2px 2px 5px black;
+
+     }
+
+
+
+
+
+/* Supprimer */
+    section input[type="submit"][value*="Supprimer"]{
+      background: url(../../contents/img/structure/suppr.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/suppr.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/suppr.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/suppr.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/suppr.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Supprimer"]:hover{
+      background:url(../../contents/img/structure/suppr.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/suppr.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/suppr.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/suppr.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/suppr.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:red;
+      border:1px solid red; 
+    }
+
+
+
+
+/* Valider */
+    section input[type="submit"][value*="Envoyer"],
+    section input[type="submit"][value*="Connexion"],
+    section input[type="submit"][value*="Valid"]{
+      background: url(../../contents/img/structure/valid.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/valid.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/valid.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/valid.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/valid.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Envoyer"]:hover,
+    section input[type="submit"][value*="Connexion"]:hover,
+    section input[type="submit"][value*="Valid"]:hover{
+      background:url(../../contents/img/structure/valid.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/valid.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/valid.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/valid.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/valid.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:gold;
+      border:1px solid gold; 
+    }
+
+
+
+
+/* Voir */
+    section input[type="submit"][value*="Voir"],
+    section input[type="submit"][value*="Details"]{
+      background: url(../../contents/img/structure/vue.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/vue.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/vue.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/vue.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/vue.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Voir"]:hover,
+    section input[type="submit"][value*="Details"]:hover{
+      background:url(../../contents/img/structure/vue.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/vue.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/vue.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/vue.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/vue.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:gray;
+      border:1px solid gray; 
+    }
+
+
+
+
+/* Annuler */
+    section input[type="submit"][value*="Annuler"],
+    section input[type="reset"]{
+      background: url(../../contents/img/structure/annul.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/annul.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/annul.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/annul.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/annul.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Annuler"]:hover,
+    section input[type="reset"]:hover{
+      background:url(../../contents/img/structure/annul.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/annul.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/annul.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/annul.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/annul.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:red;
+      border:1px solid red; 
+    }
+
+
+
+
+/* Ajouter */
+    section input[type="submit"][value*="Répondre"],
+    section input[type="submit"][value*="Ajout"],
+    section input[type="submit"][value*="Créer"]{
+      background: url(../../contents/img/structure/add.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/add.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/add.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/add.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/add.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Répondre"]:hover,
+    section input[type="submit"][value*="Ajout"]:hover,
+    section input[type="submit"][value*="Créer"]:hover{
+      background:url(../../contents/img/structure/add.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/add.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/add.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/add.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/add.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:green;
+      border:1px solid green; 
+    }
+
+
+
+
+/* Modifier */
+    section input[type="submit"][value*="Modifier"]{
+      background: url(../../contents/img/structure/modif.png) 5px center no-repeat, 
+      -webkit-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/modif.png) 5px center no-repeat, 
+       -moz-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/modif.png) 5px center no-repeat, 
+        -ms-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/modif.png) 5px center no-repeat, 
+         -o-linear-gradient(top, #999 0%, #555 24%, #000 41%, #333 100%);
+      background: url(../../contents/img/structure/modif.png) 5px center no-repeat, 
+            linear-gradient(to bottom, #999 0%, #555 24%, #000 41%, #333 100%);
+
+      background-color: black; 
+    }
+
+    section input[type="submit"][value*="Modifier"]:hover{
+      background:url(../../contents/img/structure/modif.png) 5px center no-repeat,
+      -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/modif.png) 5px center no-repeat,
+       -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/modif.png) 5px center no-repeat,
+        -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/modif.png) 5px center no-repeat,
+         -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background:url(../../contents/img/structure/modif.png) 5px center no-repeat,
+            linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+            
+      background-color: black; 
+      color:gold;
+      border:1px solid gold; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Table de chaque "table SQL" */
+    section > article > table {
+      border-collapse: collapse;
+      cursor:default;
+    }
+
+    section > article > table th {
+      font-family: "glaser"; /*achene*/
+      letter-spacing: 2px;
+      border: 1px solid rgb(155, 205, 255);
+      padding:0 10px 6px;
+      background-color: rgba(255,255,255,0.05);
+    }
+
+    section > article > table th:first-child,
+    section > article > table td:last-child,
+    section > article > table tr:first-child td {
+      border: none;
+      background-color: transparent;
+    }
+
+    section > article > table td {
+      font-family: "Consolas"; 
+      border: 1px solid rgb(155, 205, 255);
+      padding:3px 10px;
+      background-color: rgba(255,255,255,0.10);
+    }
+
+    section > article > table td:first-child {
+      background-color: rgba(255,255,255,0.05);
+    }
+
+
+    section > article > table tr:not(:first-child):not(:nth-child(2)):hover {
+      background-image: linear-gradient(to left, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+      background-image: -webkit-linear-gradient(right, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+      background-image:    -moz-linear-gradient(right, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+      background-image:     -ms-linear-gradient(right, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+      background-image:      -o-linear-gradient(right, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+      background-image:         linear-gradient(to left, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.15) 50%, rgba(255,0,0,0.10) 100%); 
+
+      -webkit-box-shadow: inset 2px 2px 5px black;
+         -moz-box-shadow: inset 2px 2px 5px black;
+          -ms-box-shadow: inset 2px 2px 5px black;
+           -o-box-shadow: inset 2px 2px 5px black;
+              box-shadow: inset 2px 2px 5px black;
+
+    }
+
+
+    section img {
+      width:32px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formulaires */
+/*conteneur*/
+    section > aside {
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+
+      margin-bottom:20px;
+      padding:20px;
+      
+      background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:    -moz-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:     -ms-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+      background-image:      -o-linear-gradient(right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%);  
+      background-image:         linear-gradient(to left, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.10) 100%); 
+
+      border:1px solid rgb(155, 205, 255); 
+
+      -webkit-box-shadow: inset 2px 2px 5px black;
+         -moz-box-shadow: inset 2px 2px 5px black;
+          -ms-box-shadow: inset 2px 2px 5px black;
+           -o-box-shadow: inset 2px 2px 5px black;
+              box-shadow: inset 2px 2px 5px black;
+
+    }
+
+    section > aside p,
+    section > aside pre {
+      margin:0;
+      padding:0;
+      font-family: inherit;
+    }
+
+    aside form p,
+    aside form pre {
+     padding-bottom:10px;
+     padding-left:10px;
+     color:#999;
+    }
+
+/*Contenu d'elements*/
+    section > aside div ,
+    section > aside fieldset {
+      position:relative;
+      padding:25px 10px 0;
+      margin:15px auto;
+      border:1px solid #111;
+      
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+
+      background-color: gray;
+      
+      -webkit-box-shadow: inset 3px 3px 5px black;
+         -moz-box-shadow: inset 3px 3px 5px black;
+          -ms-box-shadow: inset 3px 3px 5px black;
+           -o-box-shadow: inset 3px 3px 5px black;
+              box-shadow: inset 3px 3px 5px black;
+
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.75) 100%);
+      background-image:    -moz-linear-gradient(top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.75) 100%);
+      background-image:     -ms-linear-gradient(top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.75) 100%);
+      background-image:      -o-linear-gradient(top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.75) 100%);  
+      background-image:         linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.75) 100%);
+
+    }
+
+    section > aside >p:first-child {
+
+      font-family: "achene"; /*achene*/
+      font-size: 1.2em;
+    }
+
+    section > aside fieldset {
+       padding:10px;
+       margin:2em auto 1.4em;
+    }
+
+    section > aside fieldset + fieldset {
+      margin-top: 4em;
+    }
+
+    #realisations > aside fieldset + fieldset,
+    #designations > aside fieldset + fieldset {
+      display:inline-block;
+      width:47%;
+    }
+
+    section > aside fieldset > legend {
+      position:absolute;
+      top:-1.5em;
+      font-family: "glaser"; 
+      font-size: 1.2em;
+      color: red;
+      letter-spacing: 2px;
+    }
+
+    /*elements du formulaire*/
+    section > aside fieldset input[type="text"],
+    section > aside fieldset input[type="password"],
+    section > aside fieldset textarea ,
+    section > aside fieldset select {
+      margin: 4px auto 10px;
+      padding:5px 5px 3px 7px;
+      font-family: "arial";
+      font-size:0.8em;
+      color:#555;
+      background-color: #ccc;
+      border:1px solid #111;
+      
+      -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+           -o-border-radius: 7px;
+              border-radius: 7px;
+      
+      -webkit-box-shadow: inset 3px 3px 5px black;
+         -moz-box-shadow: inset 3px 3px 5px black;
+          -ms-box-shadow: inset 3px 3px 5px black;
+           -o-box-shadow: inset 3px 3px 5px black;
+              box-shadow: inset 3px 3px 5px black;
+
+     }
+
+    section > aside fieldset input[type="text"]:focus,
+    section > aside fieldset input[type="password"]:focus,
+    section > aside fieldset textarea:focus ,
+    section > aside fieldset select:focus {
+      border:1px solid rgb(155, 205, 255);
+      
+      -webkit-box-shadow: 0 0 5px rgb(155, 205, 255);
+         -moz-box-shadow: 0 0 5px rgb(155, 205, 255);
+          -ms-box-shadow: 0 0 5px rgb(155, 205, 255);
+           -o-box-shadow: 0 0 5px rgb(155, 205, 255);
+              box-shadow: 0 0 5px rgb(155, 205, 255);
+
+      background-color: #fff;
+      color:black;
+     }
+
+    section > aside fieldset input[type="text"],
+    section > aside fieldset input[type="password"],
+    section > aside fieldset textarea {
+      width:99%;
+     }
+
+
+
+
+    section > aside fieldset label {
+      font-family: "achene";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARTICULARITE DE CHAQUE VUE*/
+
+
+
+
+/* Section Emails */
+
+#emails aside div p:first-child {
+ position:absolute;
+ top:2px;
+ left:10px;
+ font-size:1.2em;
+ font-weight: bold;
+}
+
+#emails aside div p:nth-child(2) {
+ position:absolute;
+ top:6px;
+ right:10px;
+}
+
+#emails aside div p:nth-child(3),
+#emails aside div p:nth-child(5),
+#emails aside div pre {
+ padding-bottom:10px;
+ padding-left:10px;
+ border-bottom: 1px solid red;
+ color:#999;
+}
+
+#emails aside div p:nth-child(4),
+#emails aside div p:nth-child(6) {
+ padding-top:5px;
+}
+
+#emails aside div pre {
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Section Logiciels */
+
+#logs table tr td:nth-child(6){
+  text-align: center;
+}
+
+#logs fieldset img:last-child{
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+/* Section designations */
+
+#designations table tr td:nth-child(4),
+#designations table tr td:nth-child(5){
+  max-width: 200px;
+  overflow: hidden;
+
+  -webkit-text-overflow: ellipsis;
+     -moz-text-overflow: ellipsis;
+      -ms-text-overflow: ellipsis;
+       -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+
+   white-space: nowrap;
+}
+
+
+
